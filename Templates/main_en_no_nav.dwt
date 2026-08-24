@@ -1,0 +1,98 @@
+<html>
+<head>
+<meta name="keywords" content="zju fan zhang"/>
+<meta name="author" content="Fan (Terry) Zhang, College of Information Science & Electronic Engineering, Zhejiang University"/>
+<meta name="description" content="Research website"/>
+<meta name="revised" content="Fan Zhang 11/28/2017"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<!-- TemplateBeginEditable name="html_title" -->
+<title>Fan Zhang's Homepage</title>
+<!-- TemplateEndEditable -->    
+<link rel="stylesheet" type="text/css" href="../css/style_en.css" />
+</head>
+
+<!--default height="24" width="760", replace 760 with 1200-->
+<body>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <!-- line for the two versions
+  <tr align="right"><td colspan="5">
+    <div>
+        <a href="../site_cn/index.html"><img id="ch" src="../images/flag/cn.gif" alt="中文" /></a>
+        <a href="../site_en/index.html"><img id="en" src="../images/flag/us.gif" alt="英文" /></a>
+    </div>
+    </td>
+  </tr>
+  -->
+  <!--<tr><td colspan="5"><img src="../images/banner.jpg" width="760" height="144" alt=""></td></tr>-->
+  <!--<tr><td colspan="5"><img src="../images/title.png" width="760"></td></tr>-->
+  <!--<tr><td height="21" colspan="5"><img src="../images/menu.jpg" height="21" width="760" alt=""></td></tr>-->
+  <tr>
+        <td height="24" colspan="5" class="banner">
+        	<table>
+            	<tr>
+                	<td width="80"><img height="120" src="../images/zjulogo.png" /></td>
+                    <td><font color="#FFFFFF" size="+3">Welcome to Fan (Terry) Zhang's Homepage</font></br></br>
+                    <font color="#FFFFFF" size="+1">College of Computer Science and Technology</font></br>
+                    <font color="#FFFFFF" size="+1">Zhejiang University</font></br>
+                    </td>   
+                </tr>
+            </table>
+        </td>
+  </tr>
+  <tr>
+        <td height="24" colspan="5" background="../images/menu2.png">
+        	<table>
+            	<tr>
+                	<td width="80"></td>
+                	<td><a href="../site_en/index.htm" class="xmenu0">Home</a></td>
+                    <td><a href="../site_en/news.htm" class="xmenu0">News</a></td>
+                    <td><a href="../site_en/publication_selected.htm" class="xmenu0">Publication</a></td>
+                    <td><a href="../site_en/research_current.htm" class="xmenu0">Research</a></td>
+                    <td><a href="../site_en/teaching.htm" class="xmenu0">Teaching</a></td>
+					<td><a href="../site_en/award.htm" class="xmenu0">Awards</a></td>
+                    <td><a href="../site_en/information/incoming_students.htm" class="xmenu0">Information</a></td>
+                    <td><a href="../site_en/students.htm" class="xmenu0">Students</a></td>
+                    <td><a href="#" class="xmenu0"></a></td>
+                    <td><a href="../site_cn/index.htm"><img id="ch" src="../images/flag/cn.gif" alt="中文" /></a></td>
+                    <td><a href="../site_en/index.htm"><img id="en" src="../images/flag/us.gif" alt="英文" /></a></td>                    
+                </tr>
+            </table>
+        </td>
+  </tr>
+  <!--<tr><td height="24" colspan="5"><img src="../images/menu2.png" height="24" width="1000" alt=""></td></tr>-->
+  <!--<tr><td height="24" colspan="5"><a href="../site_en/links.html" class="xmenu1">AAA</a></td></tr>-->
+  <tr>
+    <td width="50" bgcolor="#D9EBFF"></td>
+    <td bgcolor="#D9EBFF"></td>
+    <td bgcolor="#D9EBFF"></td>
+    <td bgcolor="#D9EBFF"></td>
+    <td width="50" bgcolor="#D9EBFF"></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" bgcolor="#D9EBFF">        
+	</td>	
+    <td bgcolor="#D9EBFF"></td>
+    <td bgcolor="#D9EBFF"></td>
+    <td height="1000" align="left" valign="top" class="text" bgcolor="#D9EBFF"><br/> 
+<!-- TemplateBeginEditable name="html_body" -->
+
+	Body Text
+    
+<!-- TemplateEndEditable -->
+	</td>
+    <td bgcolor="#D9EBFF"></td>
+  </tr>    
+  <tr>
+    <td bgcolor="#D9EBFF"></td>
+    <td bgcolor="#D9EBFF"></td>
+    <td bgcolor="#D9EBFF"></td>
+    <td bgcolor="#D9EBFF" align="right" class="footnote">
+    	<hr>Last updated date: <script language="javascript">document.write(document.lastModified)</script><br>
+        Copyright&copy;2019: Fan (Terry) Zhang
+        </td>
+    <td bgcolor="#D9EBFF"></td>
+  </tr>
+</table>
+</body>
+<script src="/test/js/fixedbtn.js" ></script>
+</html>

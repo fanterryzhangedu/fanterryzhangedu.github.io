@@ -1,0 +1,94 @@
+[1mdiff --git a/site_cn/publication_fulllist.htm b/site_cn/publication_fulllist.htm[m
+[1mindex c9c107d..83dd16a 100644[m
+[1m--- a/site_cn/publication_fulllist.htm[m
+[1m+++ b/site_cn/publication_fulllist.htm[m
+[36m@@ -74,8 +74,10 @@[m
+ 			<td align="left">[m
+             	<table width="100%">[m
+ 					<tr><td height="28"><a href="publication_selected.htm" class="xmenu1">代表性论文</a></td></tr>[m
+[31m-					<tr><td height="28"><a href="publication_fulllist.htm" class="xmenu1 side-current">所有论文</a></td></tr>[m
+[32m+[m					[32m<tr><td height="28"><a href="publication_fulllist.htm" class="xmenu1">所有论文</a></td></tr>[m
+ 					<tr><td height="28"><a href="publication_others.htm" class="xmenu1">其他著作</a></td></tr>[m
+[32m+[m[32m                <!--<tr><td height="26"><a href="../references/refs_index.html" class="xmenu1">References</a></td></tr>-->[m
+[32m+[m[32m                <!--<tr><td height="26"><a href="../cv/terry_cv.pdf" class="xmenu1" target="_blank">Curriculum Vitae</a></td></tr>-->[m
+ 				</table>[m
+ 			</td>		[m
+ 		  </tr>[m
+[36m@@ -104,7 +106,7 @@[m
+ <!-- InstanceBeginEditable name="html_body" -->[m
+ [m
+ <span class="title">SCI期刊论文</span>[m
+[31m-<ol>[m
+[32m+[m[32m<ol class="">[m
+ 	<!--<li><strong>F. Zhang</strong>, Z. Liang, C. Zuo, J. Shao, J. Ning*, J. Sun, J. Liu, "HEPRES: A Hardware-enhanced Proxy Re-encryption Scheme using Intel SGX," <em>IEEE Transactions on Dependable and Secure Computing</em>, &nbsp;<font color="blue">in submission</font>. &nbsp;</li>-->[m
+     <li><strong>F. Zhang</strong>, B. Yang, X. Dong, S. Guilley, Z. Liu*, W. He, F. G. Zhang, K. Ren, "Side-Channel Analysis and Countermeasure[m
+ Design on ARM-based Quantum-Resistant SIKE," <em>IEEE Transactions on Computers</em>, <font color="blue">accepted</font> &nbsp;(<font color="red"><strong>CCF-A</strong></font>).</li>[m
+[1mdiff --git a/site_cn/publication_others.htm b/site_cn/publication_others.htm[m
+[1mindex 76aeb2a..0381a8c 100644[m
+[1m--- a/site_cn/publication_others.htm[m
+[1m+++ b/site_cn/publication_others.htm[m
+[36m@@ -75,7 +75,9 @@[m
+             	<table width="100%">[m
+ 					<tr><td height="28"><a href="publication_selected.htm" class="xmenu1">代表性论文</a></td></tr>[m
+ 					<tr><td height="28"><a href="publication_fulllist.htm" class="xmenu1">所有论文</a></td></tr>[m
+[31m-					<tr><td height="28"><a href="publication_others.htm" class="xmenu1 side-current">其他著作</a></td></tr>[m
+[32m+[m					[32m<tr><td height="28"><a href="publication_others.htm" class="xmenu1">其他著作</a></td></tr>[m
+[32m+[m[32m                <!--<tr><td height="26"><a href="../references/refs_index.html" class="xmenu1">References</a></td></tr>-->[m
+[32m+[m[32m                <!--<tr><td height="26"><a href="../cv/terry_cv.pdf" class="xmenu1" target="_blank">Curriculum Vitae</a></td></tr>-->[m
+ 				</table>[m
+ 			</td>		[m
+ 		  </tr>[m
+[1mdiff --git a/site_cn/publication_selected.htm b/site_cn/publication_selected.htm[m
+[1mindex 763c63a..383f926 100644[m
+[1m--- a/site_cn/publication_selected.htm[m
+[1m+++ b/site_cn/publication_selected.htm[m
+[36m@@ -73,10 +73,12 @@[m
+ 		  <tr>[m
+ 			<td align="left">[m
+             	<table width="100%">[m
+[31m-					<tr><td height="28"><a href="publication_selected.htm" class="xmenu1 side-current">代表性论文</a></td></tr>[m
+[32m+[m					[32m<tr><td height="28"><a href="publication_selected.htm" class="xmenu1">代表性论文</a></td></tr>[m
+ 					<tr><td height="28"><a href="publication_fulllist.htm" class="xmenu1">所有论文</a></td></tr>[m
+ 					<tr><td height="28"><a href="publication_others.htm" class="xmenu1">其他著作</a></td></tr>[m
+[31m-                </table>[m
+[32m+[m[32m                <!--<tr><td height="26"><a href="../references/refs_index.html" class="xmenu1">References</a></td></tr>-->[m
+[32m+[m[32m                <!--<tr><td height="26"><a href="../cv/terry_cv.pdf" class="xmenu1" target="_blank">Curriculum Vitae</a></td></tr>-->[m
+[32m+[m				[32m</table>[m
+ 			</td>		[m
+ 		  </tr>[m
+ 		</table>[m
+[36m@@ -106,7 +108,7 @@[m
+ <span class="title">代表性论文</span>[m
+ <hr/>[m
+ <p>请点击<a href="publication_fulllist.htm">这里</a>查看所有的论文列表。</p>[m
+[31m-<ol>[m
+[32m+[m[32m<ol class="perspective-pub-container">[m
+ 	<li><strong>F. Zhang</strong>, B. Shao, W. Gu, "Artificial Intelligence with Side Channle Analysis," (人工智能之于旁路分析) in <em>Communications of the CCF</em>, Vol.15, Issue.7, Editors: K. Ren, (Eds.), July 2019.<a href="../publications/2019_CCCF_AI_SCA.pdf" target="_blank">[PDF]</a></li>[m
+     <li>Y. Chen, C. Poskitt, J. Sun, S. Adepu, <strong>F. Zhang*</strong>, "Learning-Guided Network Fuzzing for Testing Cyber-Physical System Defences," In <em>ASE 2019</em>, Nov 2019. &nbsp;<a href="../publications/2019_ASE_fuzzing.pdf" target="_blank">[PDF]</a> (<font color="red"><strong>CCF-A,  AR=21%, 93/455</strong></font>)</li>[m
+ 	<li><strong>F. Zhang*</strong>, X. Lou, X. Zhao, S. Bhasin, W. He, R. Ding, S. Qureshi, K. Ren, "Persistent Fault Analysis on Block Ciphers," <em>IACR Transactions on Cryptographic Hardware and Embedded Systems</em>, Issue 3, pp.150-172, 2018.&nbsp;<a href="../publications/2018_CHES_PFA.pdf" target="_blank">[PDF]</a>&nbsp;<a href="https://www.youtube.com/watch?v=e276Z-6F8Pw" target="_blank">[Video]</a>&nbsp;<a href="../publications/2018_CHES_PFA_PPT.pdf" target="_blank">[PPT]</a>&nbsp;(<font color="red"><strong>CCF-B, the same paper won Best Paper Award in ChinaCrypt 2018</strong></font>).</li>[m
+[1mdiff --git a/site_en/publication_fulllist.htm b/site_en/publication_fulllist.htm[m
+[1mindex 7bb78d0..8d191c0 100644[m
+[1m--- a/site_en/publication_fulllist.htm[m
+[1m+++ b/site_en/publication_fulllist.htm[m
+[36m@@ -74,7 +74,7 @@[m
+ 			<td align="left">[m
+             	<table width="100%">[m
+ 				<tr><td height="26"><a href="publication_selected.htm" class="xmenu1">Publication (Selected)</a></td></tr>[m
+[31m-                <tr><td height="26"><a href="publication_fulllist.htm" class="xmenu1 side-current">Publication (Full List)</a></td></tr>[m
+[32m+[m[32m                <tr><td height="26"><a href="publication_fulllist.htm" class="xmenu1">Publication (Full List)</a></td></tr>[m
+                 <tr><td height="26"><a href="#" class="xmenu1">Books</a></td></tr>[m
+                 <!--<tr><td height="26"><a href="#" class="xmenu1">Category by Area</a></td></tr>-->[m
+                 <!--<tr><td height="26"><a href="../references/refs_index.html" class="xmenu1">References</a></td></tr>-->[m
+[1mdiff --git a/site_en/publication_selected.htm b/site_en/publication_selected.htm[m
+[1mindex d304f7b..821d886 100644[m
+[1m--- a/site_en/publication_selected.htm[m
+[1m+++ b/site_en/publication_selected.htm[m
+[36m@@ -73,7 +73,7 @@[m
+ 		  <tr>[m
+ 			<td align="left">[m
+             	<table width="100%">[m
+[31m-				<tr><td height="26"><a href="publication_selected.htm" class="xmenu1 side-current">Publication (Selected)</a></td></tr>[m
+[32m+[m				[32m<tr><td height="26"><a href="publication_selected.htm" class="xmenu1">Publication (Selected)</a></td></tr>[m
+                 <tr><td height="26"><a href="publication_fulllist.htm" class="xmenu1">Publication (Full List)</a></td></tr>[m
+                 <tr><td height="26"><a href="#" class="xmenu1">Books</a></td></tr>[m
+                 <!--<tr><td height="26"><a href="#" class="xmenu1">Category by Area</a></td></tr>-->[m

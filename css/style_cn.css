@@ -1,0 +1,482 @@
+body,td,th {
+	font-family: "Arial","宋体", "仿宋", sans-serif;  /*使用宋体作为主要字体*/
+	color: #333333;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background: #e6f0ff url(../images/bg.gif) repeat;
+}
+
+/* 页面整体容器（所有页面共用的最外层表格） */
+body > table {
+	background-color: rgba(255, 255, 255, 0.96);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+li {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 10px 10px 0px;
+	text-align:left;
+	
+}
+strong{
+	font-weight: bold;
+}
+
+p { /*增加中文段落中的首行缩进*/
+	text-indent:2em; 
+	/*
+	padding:0px; 
+	margin:0px; 
+	*/
+}
+
+.text {
+	font-family: "Arial","宋体", "仿宋", sans-serif;  /*使用宋体作为主要字体*/
+	font-size: 14px;
+	color: #2B1005;
+	line-height: 1.8;
+	font-weight: lighter;
+}
+
+/* 正文段落：与外层 .text 容器同宽（避免 max-width: 46em 导致窄于单元格） */
+.text p {
+	max-width: 100%;
+	margin-top: 0.4em;
+	margin-bottom: 0.8em;
+}
+
+.text h1, .text h2, .text h3 {
+	margin-top: 0.2em;
+	margin-bottom: 0.4em;
+}
+
+/* 顶部 Banner 欢迎区（不改变原有配色，只做视觉升级） */
+.banner {
+	background: radial-gradient(circle at 0% 0%, #3d8bff 0%, #0066CC 40%, #004c99 100%);
+}
+
+.banner table {
+	width: 100%;
+	height: 140px;
+}
+
+.banner img {
+	filter: drop-shadow(0 6px 14px rgba(0,0,0,0.35));
+}
+
+.banner font[size="+3"] {
+	letter-spacing: 0.12em;
+	font-weight: bold;
+}
+
+.banner font[size="+1"] {
+	opacity: 0.9;
+}
+
+
+/* 限制左侧菜单宽度 */
+.sidebar {
+	width: 191px;
+}
+
+/* 顶部导航栏背景和分隔线（偏白浅蓝，保持轻盈感） */
+td[background*="menu2.png"] {
+	background: linear-gradient(to bottom, #f7fbff 0%, #e1ecff 100%);
+	border-bottom: 1px solid #c0d4f0;
+}
+
+td[background*="menu2.png"] table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+/* 顶部导航区铺满并增加一点过渡感 */
+td[bgcolor="#D9EBFF"] {
+	transition: background-color 0.3s ease;
+}
+
+/* 中文/英文小国旗与菜单对齐 */
+#ch, #en {
+	vertical-align: middle;
+}
+
+
+/* 链接默认样式统一 */
+a {
+	color: #0056b3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #003d80;
+	text-decoration: underline;
+}
+
+/* 顶部导航文字与交互（浅底色 + 方形tab） */
+.xmenu0,
+.xmenu0:active,
+.xmenu0:link,
+.xmenu0:visited {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	color: #234060;
+	text-decoration: none;
+	display: inline-block;
+	min-width: 96px;
+	padding: 6px 16px 8px;
+	line-height: 1.2;
+	border-radius: 0;
+	border: 1px solid transparent;
+	transition: background-color 0.18s ease, color 0.18s ease, transform 0.12s ease, box-shadow 0.12s ease;
+	position: relative;
+}
+
+.xmenu0:hover {
+	color: #003d80;
+	background-color: #e4f0ff;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+	transform: translateY(0);
+}
+
+/* 顶部导航悬停下划线高亮条（细线，不改变方形边角） */
+.xmenu0:hover::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -3px;
+	height: 3px;
+	background: #9fc5ff; /* 纯色蓝色底边 */
+	border-radius: 2px;
+	opacity: 0.85;
+}
+
+/* 导航栏中用于占位的“空菜单项”：占一个菜单宽度，把国旗右移 */
+a.xmenu0[href="#"] {
+	opacity: 0;
+	pointer-events: none;
+}
+
+a.xmenu0[href="#"]::after {
+	content: none !important;
+}
+
+/* 当前页导航高亮态：浅底略深边框，仍为方形tab */
+.nav-current,
+.nav-current:link,
+.nav-current:visited {
+	color: #002a5c !important;
+	background: #ffffff;
+	border-color: #98b7e6;
+	box-shadow: 0 0 0 1px rgba(152, 183, 230, 0.7);
+	cursor: default;
+}
+
+.nav-current::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -3px;
+	height: 3px;
+	background: #7fb0ff; /* 纯色蓝色底边 */
+	border-radius: 2px;
+}
+
+.xmenu1,
+.xmenu1:active,
+.xmenu1:link,
+.xmenu1:visited {
+	text-align: left;
+	font-size: 13px;
+	font-weight: 600;
+	color: #123253;
+	text-decoration: none;
+	display: block;
+	width: 170px;
+	line-height: 22px;
+	padding: 4px 8px 4px 10px;
+	border-radius: 0;
+	border: none;
+	background: transparent;
+	border-left: 3px solid transparent;
+	transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+	margin-bottom: 2px;
+}
+
+.xmenu1:hover {
+	color: #002a5c;
+	background-color: #e5f0ff;
+	border-left-color: #9fb8e5;
+}
+
+/* 发表论文等页面左侧栏当前项高亮 */
+.side-current,
+.side-current:link,
+.side-current:visited {
+	color: #123253 !important;
+	background: transparent;
+	border-left-color: #356fba;
+}
+
+.xmenu2, .xmenu2:active,.xmenu2:link, .xmenu2:visited {
+	text-align: left;
+	font-size: 12px;
+	font-weight: 400;
+	color: #183a5f;
+	text-decoration: none;
+	display: block;
+	width: 170px;
+	line-height: 1.35;
+	padding: 4px 8px 4px 10px;
+	border-radius: 0;
+	border: none;
+	background: transparent;
+	border-left: 3px solid transparent;
+	transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+	margin-bottom: 2px;
+}
+
+.xmenu2:hover {
+	color: #002a5c;
+	background-color: #eef5ff;
+	border-left-color: #b6c9e9;
+}
+
+.footnote {
+	font-size: 12px;
+	font-style:italic;
+	background:#D9EBFF;	
+	
+}
+
+.title {
+	text-align:left;
+	font-size: 18px;
+	color: #1E0B03;
+	font-family: "Arial","宋体", sans-serif;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+/* 代表性论文：带封面的列表布局（仅在副本页面上使用） */
+.representative-pub-container {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.representative-pub-item {
+	display: flex;
+	align-items: flex-start;
+	gap: 14px;
+	margin-bottom: 14px;
+	padding: 10px 12px;
+	border-radius: 8px;
+	background: #f3f7ff;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+	position: relative;
+}
+
+.representative-pub-item .pub-cover {
+	flex: 0 0 72px;
+	width: 72px;
+	height: 96px;
+	border-radius: 6px;
+	border: 1px solid #c8d8f0;
+	background: #e8eef8;
+	box-shadow: 0 4px 10px rgba(0, 64, 160, 0.18);
+	position: relative;
+	overflow: hidden;
+}
+
+.representative-pub-item .pub-cover img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.representative-pub-item .pub-meta {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.representative-pub-item .pub-meta a {
+	white-space: nowrap;
+}
+
+.representative-pub-item .pub-meta-main {
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+.representative-pub-item .pub-actions {
+	position: absolute;
+	right: 12px;
+	bottom: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	align-items: center;
+}
+
+.representative-pub-item .pub-more {
+	font-size: 12px;
+	color: #0056b3;
+	text-decoration: underline;
+}
+
+/* 正文区内外链小标签统一样式 */
+.publication-list a[href$=".pdf"],
+.publication-list a[href$=".PDF"],
+.publication-list a[href$=".pptx"],
+.publication-list a[href*="youtube"],
+.publication-list a[href*="youtu.be"],
+.publication-list a[href*="vimeo"],
+.publication-list a[href*="PPT"],
+.publication-list a[href*="ppt"] {
+	display: inline-block;
+	vertical-align: baseline;
+	margin-left: 0.25em;
+	padding: 0.12em 0.5em;
+	font-size: 0.78em;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	border-radius: 4px;
+	text-decoration: none !important;
+	line-height: 1.35;
+	transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+/* PDF 链接：蓝色标签 */
+.publication-list a[href$=".pdf"]:not([href*="PPT"]):not([href*="ppt"]),
+.publication-list a[href$=".PDF"]:not([href*="PPT"]):not([href*="ppt"]) {
+	color: #154a78;
+	background: linear-gradient(180deg, #eef5fc 0%, #dce8f6 100%);
+	border: 1px solid #b3c9e0;
+	box-shadow: 0 1px 2px rgba(0, 51, 102, 0.06);
+}
+
+.publication-list a[href$=".pdf"]:not([href*="PPT"]):not([href*="ppt"]):hover,
+.publication-list a[href$=".PDF"]:not([href*="PPT"]):not([href*="ppt"]):hover {
+	color: #fff;
+	background: linear-gradient(180deg, #4a8bc8 0%, #2f6faf 100%);
+	border-color: #2a5f91;
+	box-shadow: 0 1px 2px rgba(0, 51, 102, 0.12);
+}
+
+/* PPT / Slides 链接：橙色标签 */
+.publication-list a[href*="PPT"],
+.publication-list a[href*="ppt"],
+.publication-list a[href$=".pptx"] {
+	color: #8a5a0c;
+	background: linear-gradient(180deg, #fff8e6 0%, #ffe9b8 100%);
+	border: 1px solid #e6c87a;
+	box-shadow: 0 1px 2px rgba(138, 90, 12, 0.08);
+}
+
+.publication-list a[href*="PPT"]:hover,
+.publication-list a[href*="ppt"]:hover,
+.publication-list a[href$=".pptx"]:hover {
+	color: #fff;
+	background: linear-gradient(180deg, #d4a012 0%, #b8860b 100%);
+	border-color: #996f09;
+	box-shadow: 0 1px 2px rgba(138, 90, 12, 0.2);
+}
+
+/* Video 链接：绿色标签 */
+.publication-list a[href*="youtube"],
+.publication-list a[href*="youtu.be"],
+.publication-list a[href*="vimeo"] {
+	color: #0d5c3a;
+	background: linear-gradient(180deg, #e8f8f0 0%, #c8eed9 100%);
+	border: 1px solid #7acba3;
+	box-shadow: 0 1px 2px rgba(13, 92, 58, 0.08);
+}
+
+.publication-list a[href*="youtube"]:hover,
+.publication-list a[href*="youtu.be"]:hover,
+.publication-list a[href*="vimeo"]:hover {
+	color: #fff;
+	background: linear-gradient(180deg, #2da366 0%, #1e7a4d 100%);
+	border-color: #166d40;
+	box-shadow: 0 1px 2px rgba(13, 92, 58, 0.2);
+}
+
+/* Start----------所有论文页面的单独样式--------Start */
+/* 标签样式 */
+.publication-fullist-container .pub-tag{
+	display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 1px 6px;
+    margin: 0 3px;
+    border-radius: 12px;
+    line-height: 1.3;
+    background-color: transparent;
+    color: #36cf70;
+    border: 1px solid #36cf70;
+}
+/* 列表边界优化 不改动.title */
+.publication-fullist-container :is(ol, ul) {
+    margin: 0.8em 0;
+    /* 重点1：增加左侧内边距，给三位数序号留足空间 */
+    padding-left: 3.5em;
+    border: 1px solid #c2d4eb;
+    border-radius: 6px;
+    background-color: #f8fbff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /* 重点2：让序号在容器外显示，不会挤正文 */
+    list-style-position: outside;
+}
+
+.publication-fullist-container li {
+    /* 重点3：给左侧留一点空白，避免序号贴边 */
+    padding: 8px 6px 8px 4px;
+    margin: 6px 8px 8px 0;
+    text-align: left;
+    border-bottom: 1px dashed #d1dceb;
+    transition: background 0.2s;
+    /* 重点4：保持相对定位，不影响Read More */
+    position: relative;
+}
+
+.publication-fullist-container li:last-child {
+    border-bottom: none;
+}
+
+.publication-fullist-container li:hover {
+    background-color: #eef5ff;
+    border-radius: 4px;
+}
+
+.publication-fullist-container hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #9fb8e5, transparent);
+    margin: 20px 0;
+}
+/* read more 链接样式留存 <a href="https://ieeexplore.ieee.org/abstract/document/11316161" target="_blank" class="read-more">Read More</a> */
+.publication-fullist-container .read-more{
+    font-size: 12px;
+    color: #356fba;
+    text-decoration: none;
+	display: block;
+	text-align: right;
+}
+
+/* End----------所有论文页面的单独样式--------End */
+
