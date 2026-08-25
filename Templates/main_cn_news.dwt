@@ -46,8 +46,8 @@
                 	<td width="80"></td>
                 	<td><a href="../site_cn/index.htm" class="xmenu0">我的主页</a></td>
                     <td><a href="../site_cn/news/news.htm" class="xmenu0">相关新闻</a></td>
-                    <td><a href="../site_cn/publication_selected.htm" class="xmenu0">发表论著</a></td>
-                    <td><a href="../site_cn/research_index.htm" class="xmenu0">科研活动</a></td>
+                    <td><a href="../site_cn/publication/publication_selected.htm" class="xmenu0">发表论著</a></td>
+                    <td><a href="../site_cn/research/research_index.html" class="xmenu0">科研活动</a></td>
                     <td><a href="../site_cn/teaching.htm" class="xmenu0">教学活动</a></td>
 					<td><a href="../site_cn/award.htm" class="xmenu0">奖励荣誉</a></td>
                     <td><a href="../site_cn/information.htm" class="xmenu0">相关信息</a></td>

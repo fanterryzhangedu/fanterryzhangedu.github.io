@@ -46,8 +46,8 @@
                 	<td width="80"></td>
                 	<td><a href="../site_cn/index.htm" class="xmenu0">我的主页</a></td>
                     <td><a href="../site_cn/news/news.htm" class="xmenu0">相关新闻</a></td>
-                    <td><a href="../site_cn/publication_selected.htm" class="xmenu0">发表论著</a></td>
-                    <td><a href="../site_cn/research_index.htm" class="xmenu0">科研活动</a></td>
+                    <td><a href="../site_cn/publication/publication_selected.htm" class="xmenu0">发表论著</a></td>
+                    <td><a href="../site_cn/research/research_index.html" class="xmenu0">科研活动</a></td>
                     <td><a href="../site_cn/teaching.htm" class="xmenu0">教学活动</a></td>
 					<td><a href="../site_cn/award.htm" class="xmenu0">奖励荣誉</a></td>
                     <td><a href="../site_cn/information.htm" class="xmenu0">相关信息</a></td>
@@ -74,9 +74,9 @@
 		  <tr>
 			<td align="left">
             	<table width="100%">
-					<tr><td height="28"><a href="../site_cn/publication_selected222.htm" class="xmenu1">代表性论文</a></td></tr>
-					<tr><td height="28"><a href="../site_cn/publication_fulllist.htm" class="xmenu1">所有论文</a></td></tr>
-					<tr><td height="28"><a href="../site_cn/publication_others.htm" class="xmenu1">其他著作</a></td></tr>
+					<tr><td height="28"><a href="../site_cn/publication/publication_selected.htm" class="xmenu1">代表性论文</a></td></tr>
+					<tr><td height="28"><a href="../site_cn/publication/publication_fulllist.htm" class="xmenu1">所有论文</a></td></tr>
+					<tr><td height="28"><a href="../site_cn/publication/publication_others.htm" class="xmenu1">其他著作</a></td></tr>
                 <!--<tr><td height="26"><a href="../references/refs_index.html" class="xmenu1">References</a></td></tr>-->
                 <!--<tr><td height="26"><a href="../cv/terry_cv.pdf" class="xmenu1" target="_blank">Curriculum Vitae</a></td></tr>-->
 				</table>
