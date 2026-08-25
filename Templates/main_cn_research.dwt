@@ -45,7 +45,7 @@
             	<tr>
                 	<td width="80"></td>
                 	<td><a href="../site_cn/index.htm" class="xmenu0">我的主页</a></td>
-                    <td><a href="../site_cn/news.htm" class="xmenu0">相关新闻</a></td>
+                    <td><a href="../site_cn/news/news.htm" class="xmenu0">相关新闻</a></td>
                     <td><a href="../site_cn/publication_selected.htm" class="xmenu0">发表论著</a></td>
                     <td><a href="../site_cn/research_index.htm" class="xmenu0">科研活动</a></td>
                     <td><a href="../site_cn/teaching.htm" class="xmenu0">教学活动</a></td>
@@ -76,12 +76,11 @@
             	<table width="100%">
 				<tr>
                   <td height="26"><a href="../site_cn/research_index.htm" class="xmenu1">总体概述</a></td></tr>
-				  <td height="26"><a href="../site_cn/research_sca.htm" class="xmenu1">旁路分析</a></td></tr>
-                  <td height="26"><a href="../site_cn/research_fa.htm" class="xmenu1">故障分析</a></td></tr>
-                <tr>
-                  <td height="26"><a href="../site_cn/research_hwsecurity.htm" class="xmenu1">硬件安全</a></td></tr>
-                  <td height="26"><a href="../site_cn/research_system.htm" class="xmenu1">系统安全</a></td></tr>
-                  <td height="26"><a href="../site_cn/research_crypto.htm" class="xmenu1">密码实现</a></td></tr>
+                  <td height="26"><a href="#" class="xmenu1">人工智能安全</a></td></tr>
+				  <td height="26"><a href="#" class="xmenu1">网络安全</a></td></tr>
+                  <td height="26"><a href="#" class="xmenu1">系统安全</a></td></tr>
+                  <td height="26"><a href="#" class="xmenu1">硬件安全</a></td></tr>
+                  <td height="26"><a href="#" class="xmenu1">密码学</a></td></tr>                  
                   <td height="26"><a href="#" class="xmenu1">其他研究</a></td></tr>
                 <!--<tr><td height="26"><a href="../references/refs_index.html" class="xmenu1">References</a></td></tr>-->
                 <!--<tr><td height="26"><a href="../cv/terry_cv.pdf" class="xmenu1" target="_blank">Curriculum Vitae</a></td></tr>-->
